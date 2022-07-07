@@ -1,0 +1,69 @@
+
+@media screen and (max-width:480px) {
+    body {
+        background-color: #CDF0EA;
+    }
+
+    .small {
+        font-size: small;
+    }
+
+    .medium {
+        display: none;
+    }
+
+    .large {
+        display: none;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width: 1024px) {
+    body {
+        background-color: #FAF4B7;
+    }
+
+    .medium {
+        font-size: medium;
+    }
+
+    .small {
+        display: none;
+    }
+
+    .large {
+        display: none;
+    }
+    .mp1{
+        width: 66%;
+    }
+    .mp2{
+        width: 33%;
+    }
+    .mp3{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: #F6C6EA;
+    }
+
+    .small {
+        display: none;
+    }
+
+    .medium {
+        display: none;
+    }
+
+    .large {
+        font-size: large;
+        
+    }
+
+}
+.container {
+    font-size: large;
+    display: flex;    
+}
